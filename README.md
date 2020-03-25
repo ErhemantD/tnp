@@ -1,5 +1,5 @@
 # Training and placement management system
-It is an webapp splecially designed for a T & P cell working in colleges to manage the information of differnt companies 
+It is an webapp specially designed for a T & P cell working in colleges to manage the information of differnt companies 
 which are coming for placements along with the students which are placed.
 This also has a function which helps the T&P co-ordinator to sort the students based on the criteria of the company.
 
