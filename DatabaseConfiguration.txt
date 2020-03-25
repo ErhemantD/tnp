@@ -1,0 +1,62 @@
+* Database name = tnp
+* tables -->
+    +---------------+
+    | Tables_in_tnp |
+    +---------------+
+    | admindata     |                                                                                                 
+    | logindata     |                                                                                                 
+    | selectedstud  |                                                                                                 
+    | studdata      |                                                                                                 
+    +---------------+ 
+
+############# structure of tables is as follows #######################
+
+    1. admindata structure :
+    +----------+-------------+------+-----+---------+-------+                                                         
+    | Field    | Type        | Null | Key | Default | Extra |                                                         
+    +----------+-------------+------+-----+---------+-------+                                                         
+    | uname    | varchar(20) | YES  |     | NULL    |       |                                                         
+    | password | varchar(20) | YES  |     | NULL    |       |                                                         
+    +----------+-------------+------+-----+---------+-------+   
+
+    2. logindata
+    +-----------+-------------+------+-----+---------+----------------+                                               
+    | Field     | Type        | Null | Key | Default | Extra          |                                               
+    +-----------+-------------+------+-----+---------+----------------+
+    | id        | int(11)     | NO   | PRI | NULL    | auto_increment |
+    | fname     | char(20)    | YES  |     | NULL    |                |
+    | lname     | char(20)    | YES  |     | NULL    |                |
+    | e_mail    | varchar(20) | YES  |     | NULL    |                |
+    | mob_no    | varchar(20) | YES  |     | NULL    |                |
+    | uname     | varchar(20) | YES  |     | NULL    |                |
+    | password  | varchar(20) | YES  |     | NULL    |                |
+    | info_stat | char(10)    | YES  |     | NULL    |                |
+    +-----------+-------------+------+-----+---------+----------------+
+
+    3. selectedstud
+    +---------+--------------+------+-----+---------+-------+
+    | Field   | Type         | Null | Key | Default | Extra |
+    +---------+--------------+------+-----+---------+-------+
+    | id      | int(11)      | YES  |     | NULL    |       |
+    | company | varchar(100) | YES  |     | NULL    |       |
+    +---------+--------------+------+-----+---------+-------+
+
+    4. studdata
+    +-----------+--------------+------+-----+---------+-------+
+    | Field     | Type         | Null | Key | Default | Extra |
+    +-----------+--------------+------+-----+---------+-------+
+    | id        | int(11)      | YES  |     | NULL    |       |
+    | fname     | char(20)     | YES  |     | NULL    |       |
+    | lname     | char(20)     | YES  |     | NULL    |       |
+    | b_name    | varchar(20)  | YES  |     | NULL    |       |
+    | cyear     | varchar(20)  | YES  |     | NULL    |       |
+    | roll      | varchar(10)  | YES  |     | NULL    |       |
+    | address   | varchar(900) | YES  |     | NULL    |       |
+    | e_mail    | varchar(20)  | YES  |     | NULL    |       |
+    | mob_no    | varchar(20)  | YES  |     | NULL    |       |
+    | tenth     | varchar(20)  | YES  |     | NULL    |       |
+    | twelth    | varchar(20)  | YES  |     | NULL    |       |
+    | avg_marks | varchar(20)  | YES  |     | NULL    |       |
+    | nback     | varchar(20)  | YES  |     | NULL    |       |
+    | add_info  | varchar(900) | YES  |     | NULL    |       |
+    +-----------+--------------+------+-----+---------+-------+
