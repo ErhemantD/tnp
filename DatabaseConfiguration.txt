@@ -1,6 +1,8 @@
 * Database user = "root"
 * Database password = ""
-note : as per your feel free to change the database username and passowrd in ".jsp" files.
+# note : as per your feel free to change the database username and passowrd in ".jsp" files.
+
+
 * Database name = "tnp"
 * tables -->
     +---------------+
